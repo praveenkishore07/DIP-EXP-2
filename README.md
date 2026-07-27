@@ -67,6 +67,7 @@ plt.axis('off')
 plt.show()
 
 ```
+## Display the video
 ```
 cap = cv2.VideoCapture(0)
 
@@ -84,6 +85,7 @@ for i in range(50):
 cap.release()
 
 ```
+## Display the video by resizing the window
 ```
 cap = cv2.VideoCapture(0)
 
@@ -101,6 +103,7 @@ for i in range(50):
 
 cap.release()
 ```
+## Rotate and display the video
 ```
 cap = cv2.VideoCapture(0)
 
